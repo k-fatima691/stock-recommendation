@@ -1,0 +1,19 @@
+# Ignore git-related files
+.git/
+.gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore local environment files
+.env
+
+# Ignore any large files that you don't need in the deployment (e.g., model files, logs)
+models/
+*.log
+
+# Ignore other development-related files or directories
+.vscode/
+.idea/
